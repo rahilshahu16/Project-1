@@ -78,7 +78,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![docker ps](Images/docker_ps_output.png)
+![docker ps](Images/docker_ps_output.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -100,4 +100,4 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include ELK VM IP (10.1.0.4)
 - Run the playbook, and navigate to http://[your.ELK_VM.IP]:5601/app/kibana to check that the installation worked as expected.
 
-![Kibana](Images/kibana.png)
+![Kibana](Images/kibana.PNG)
